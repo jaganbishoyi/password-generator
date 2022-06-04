@@ -2,7 +2,7 @@
   "name": "Password Generator",
   "short_name": "Password Generator",
   "version": "1.0",
-  "description": "Password generator is an application to generate strong password. While generating password, user can choose various combinations, like length, uppercase letters, lowercase letters, numbers and symbols. User will get notified about strength( Strong, Medium & Weak ) of the password.",
+  "description": "Password Generator is an application to generate a strong password and secure password.",
   "manifest_version": 3,
   "author": "Jagan Mohan Bishoyi",
   "action": {

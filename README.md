@@ -1,6 +1,6 @@
 # Password Generator
 
-Password generator is an application to generate strong password. While generating password, user can choose various combinations, like length, uppercase letters, lowercase letters, numbers and symbols. User will get notified about strength( Strong, Medium & Weak ) of the password.
+Password Generator is an application to generate a strong password. While generating a password, the user can choose various combinations, like length, uppercase letters, lowercase letters, numbers, and symbols. Users will get notified about the strength( Strong, Medium & Weak ) of the password.
 
 ## Screenshot
 

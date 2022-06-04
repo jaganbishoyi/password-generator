@@ -1,0 +1,22 @@
+{
+  "name": "Password Generator",
+  "short_name": "Password Generator",
+  "version": "1.0",
+  "description": "Password Generator",
+  "manifest_version": 3,
+  "author": "Jagan Mohan Bishoyi",
+  "action": {
+    "default_icon": {
+      "16": "images/16x16.png",
+      "24": "images/24x24.png"
+    },
+    "default_title": "Password Generator",
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "images/16x16.png",
+    "24": "images/24x24.png",
+    "32": "images/32x32.png",
+    "62": "images/64x64.png"
+  }
+}

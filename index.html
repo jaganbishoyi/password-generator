@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/slider-style.css">
+        <link rel="stylesheet" href="css/tooltip.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <div class="container">
+            <h2>Password Generator</h2>
+            <div class="result-container">
+                <input type="text" id="result" disabled />
+                <button class="btn tooltip" id="clipboard">
+                    <span class="tooltip-text" id="myTooltip">Copy to clipboard</span>
+                    <img src="images/clipboard.gif" alt="" srcset="">
+                </button>
+            </div>
+            <div class="settings">
+                <div>
+                    <label class="slider slider--v">
+                        <span class="slider--label">Password length</span>
+                        <span class="slider--input">
+                            <input type="range" value="4" min="4" max="64" step="1" id="length" />
+                        </span>
+                    </label>
+                    <output>change the slider</output> <span id="StrengthDisplay">Strong</span>
+                </div>
+                <div class="setting">
+                    <label>Include uppercase letters</label>
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox__input" id="uppercase" name="uppercase" checked>
+                        <label class="checkbox__label" for="uppercase"></label>
+                    </div>
+                </div>
+                <div class="setting">
+                    <label>Include lowercase letters</label>
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox__input" id="lowercase" name="lowercase" checked>
+                        <label class="checkbox__label" for="lowercase"></label>
+                    </div>
+                </div>
+                <div class="setting">
+                    <label>Include numbers</label>
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox__input" id="numbers" name="numbers" checked>
+                        <label class="checkbox__label" for="numbers"></label>
+                    </div>
+                </div>
+                <div class="setting">
+                    <label>Include symbols</label>
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox__input" id="symbols" name="symbols" checked>
+                        <label class="checkbox__label" for="symbols"></label>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-large" id="generate">
+                Generate password
+            </button>
+        </div>
+
+        <div class="social-panel-container">
+            <div class="social-panel">
+                <p>Created with <i class="fa fa-heart"></i> by
+                    <a target="_blank" href="https://jaganbishoyi.github.io/">Jagan Mohan Bishoyi</a>
+                </p>
+                <button class="close-btn"><i class="fas fa-times"></i></button>
+                <h4>Get in touch on</h4>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/jaganmohanbishoyi/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/Jagannmohan/" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/jaganbishoyi" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://jaganbishoyi.github.io/" target="_blank">
+                            <i class="fab fa-gofore"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <button class="floating-btn">
+            Get in Touch
+        </button>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>

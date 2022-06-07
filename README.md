@@ -10,6 +10,10 @@ Password Generator is an application to generate a strong password. While genera
 
 <https://jaganbishoyi.github.io/password-generator/>
 
+## Download ( Google Chrome Web Store )
+
+<https://chrome.google.com/webstore/detail/password-generator/jdplacbmmaciodfoibinhcmbahnnibnl/>
+
 ## Tech Stack
 
 HTML, CSS and JavaScript.

@@ -1,7 +1,7 @@
 {
   "name": "Password Generator",
   "short_name": "Password Generator",
-  "version": "1.0",
+  "version": "2.0",
   "description": "Password Generator is an application to generate a strong and secure password.",
   "manifest_version": 3,
   "author": "Jagan Mohan Bishoyi",
